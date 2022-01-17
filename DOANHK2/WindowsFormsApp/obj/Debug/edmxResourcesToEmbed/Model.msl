@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QLCH1ModelStoreContainer" CdmEntityContainer="SaveImageEntities">
+    <EntitySetMapping Name="MyPics">
+      <EntityTypeMapping TypeName="QLCH1Model.MyPic">
+        <MappingFragment StoreEntitySet="MyPic">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="FileName" ColumnName="FileName" />
+          <ScalarProperty Name="Data" ColumnName="Data" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
